@@ -1,11 +1,13 @@
 # Fast-charging-module-for-lithium-batteries
 I made this IP2312 based module which has same form factor as the popular TP4056 one.
+Check the full article here:https://www.hackster.io/sainisagar7294/fast-charging-module-for-lithium-batteries-a1eaae
 
 TP4056 is the one of the most popular modules available in very cheap prices to charge the Li-ion batteries. And to protect the batteries from overcharge, over discharge and protect the batteries by charging with constant current and constant voltage method. It has onboard MOS based different IC for protection with TP4056. The module is quite good but the IC TP4056 dissipates a lot of heat while charging. Which I think is due to linear voltage regulator section inside the IC.
 
 ![mini_IMG_3452](https://github.com/halfstudents/Fast-charging-module-for-lithium-batteries/assets/86649536/f39ee41e-58a6-4a0c-9b2a-902051b12cf7)
 
-Which also limits the overall charging current, because it is very over valued to add a heat sink on this module. And I think it is not the efficient way of charging nowadays. As a solution to all of this I came here with a new module based on IP2312 and designed by me keeping the max current of 3A in mind. Yes! this board comes with fast charging and protection features and all of them are listed below. You can see the PCB files given below, which can be used to order this board from JLCPCB.
+Which also limits the overall charging current, because it is very over valued to add a heat sink on this module. And I think it is not the efficient way of charging nowadays. As a solution to all of this I came here with a new module based on IP2312 and designed by me keeping the max current of 3A in mind. Yes! this board comes with fast charging and protection features and all of them are listed below. You can see the PCB files given below, which can be used to order this board from JLCPCB. 
+https://jlcpcb.com/SSR
 
 IP2312:
 
@@ -51,11 +53,12 @@ PCB files:
 
 ![Untitled](https://github.com/halfstudents/Fast-charging-module-for-lithium-batteries/assets/86649536/342cde0e-ba34-440e-9db6-8ec49cb6ef2d)
 
-This is the Hardware level design I have implemented keeping all the noise and stabilization problems in mind. Tracks are made with enough calculations to carry max current hence delivering maximum power and reduce heat effects. Two onboard status Led’s is to monitor battery charging. And to keep all the effects of switching section minimal on the input and output the PCB is divided according to the input to output flow. I kept the form factor same as TP4056 board, which makes this design more practical and easier to use as a standalone battery charging device. For input power USB type C and solder pads are given same as TP4056 design.
+This is the Hardware level design I have implemented keeping all the noise and stabilization problems in mind. Tracks are made with enough calculations to carry max current hence delivering maximum power and reduce heat effects. Two onboard status Led’s is to monitor battery charging. And to keep all the effects of switching section minimal on the input and output the PCB is divided according to the input to output flow. I kept the form factor same as TP4056 board, which makes this design more practical and easier to use as a standalone battery charging device. For input power USB type C and solder pads are given same as TP4056 design. 
+https://jlcpcb.com/SSR
 
 ![mini_IMG_3447](https://github.com/halfstudents/Fast-charging-module-for-lithium-batteries/assets/86649536/842b9050-4c0a-400a-8476-f11541855587)
 
-To order same PCB, download all the required files from here, I always prefer to use JLCPCB and their assembly services. JLCPCB is the China based PCB manufacture provide services in PCBA, SMT, Stencil, 3D printing and Metal parts. Sign-up now and order your first PCB, get free coupons to order PCBs from the link given here. Just upload the files and select the required board parameters, BOM and CPL files can be used to order fully assembled boards.
+To order same PCB, download all the required files from here, I always prefer to use JLCPCB and their assembly services. JLCPCB is the China based PCB manufacture provide services in PCBA, SMT, Stencil, 3D printing and Metal parts. Sign-up now and order your first PCB, get free coupons to order PCBs from the link given here. Just upload the files and select the required board parameters, BOM and CPL files can be used to order fully assembled boards. https://jlcpcb.com/SSR
 
 BOM and Assembly Considerations:
 
@@ -82,4 +85,4 @@ I have tested both the boards with same battery one after the another, the batte
 
 ![My Video1](https://github.com/halfstudents/Fast-charging-module-for-lithium-batteries/assets/86649536/a57a8d38-d859-43d6-b75e-bd98ba8097d9)
 
-So, we can say battery voltage is constant in this 20 second testing period. With TP4056 the max charging current is 450mA and with TP2312 the same battery charging current is measured nearly 1A. In all, it doubles the charging rate, increase the overall efficiency and covers almost all protection features.
+So, we can say battery voltage is constant in this 20 second testing period. With TP4056 the max charging current is 450mA and with TP2312 the same battery charging current is measured nearly 1A. In all, it doubles the charging rate, increase the overall efficiency and covers almost all protection features. https://jlcpcb.com/SSR
